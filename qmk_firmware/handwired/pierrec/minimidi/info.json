@@ -1,0 +1,49 @@
+{
+  "keyboard_name": "minimidi",
+  "maintainer": "@pierrec83",
+  "manufacturer": "Pierre Chevalier",
+  "url": "http://github.com/pierrechevalier83",
+  "bootloader": "rp2040",
+  "processor": "RP2040",
+  "usb": {
+    "device_version": "1.0.0",
+    "pid": "0x0013",
+    "vid": "0xFEED"
+  },
+  "features": {
+    "bootmagic": true,
+    "command": false,
+    "console": false,
+    "nkro": true
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        { "label": "Oct", "x": 0, "y": 0 },
+        { "label": "Trans", "x": 1, "y": 0 },
+        { "label": "Pitch", "x": 2, "y": 0 },
+        { "label": "Vel", "x": 3, "y": 0 },
+        { "label": "Chan", "x": 4, "y": 0 },
+        { "label": "Mod", "x": 5, "y": 0 },
+        { "label": "Rec", "x": 6.5, "y": 0 },
+        { "label": "Play", "x": 7.5, "y": 0 },
+        { "label": "Stop", "x": 8.5, "y": 0 },
+        { "label": "Up", "x": 0, "y": 2 },
+        { "label": "C#", "x": 2, "y": 2 },
+        { "label": "D#", "x": 3, "y": 2 },
+        { "label": "F#", "x": 5, "y": 2 },
+        { "label": "G#", "x": 6, "y": 2 },
+        { "label": "Bb", "x": 7, "y": 2 },
+        { "label": "Down", "x": 0, "y": 3 },
+        { "label": "C", "x": 1.5, "y": 3 },
+        { "label": "D", "x": 2.5, "y": 3 },
+        { "label": "E", "x": 3.5, "y": 3 },
+        { "label": "F", "x": 4.5, "y": 3 },
+        { "label": "G", "x": 5.5, "y": 3 },
+        { "label": "A", "x": 6.5, "y": 3 },
+        { "label": "B", "x": 7.5, "y": 3 },
+        { "label": "C", "x": 8.5, "y": 3 }
+      ]
+    }
+  }
+}
